@@ -10,7 +10,7 @@
 
 <p align="center">Chegou a hora de acelerar a prática para criações de sites!</p>
 
-<p align="center">[![Netlify Status](https://api.netlify.com/api/v1/badges/e94f88cb-663b-421a-8830-80d53fea7934/deploy-status)](https://app.netlify.com/sites/evandroimoveis/deploys)</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e94f88cb-663b-421a-8830-80d53fea7934/deploy-status)](https://app.netlify.com/sites/evandroimoveis/deploys)
 
 
 
