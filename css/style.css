@@ -179,10 +179,9 @@ section.chamada p{
 }
 
 footer .container{
-    /* text-align: center; */
     display: flex;
     justify-content: flex-end;
-    padding: 20px 10%;
+    padding: 0 9%;
 
 }
 
@@ -205,12 +204,13 @@ footer img{
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1000px){
 
 	.bg{
 		height: auto;
 		padding: 80px 0;
 		text-align: center;
+		justify-content: center;
 	}
 
 	.form-container{
@@ -221,11 +221,8 @@ footer img{
 		position: static;
 		display: inline-block;
 	}
-}
 
-@media screen and (max-width: 768px){
-
-	.flex-mosaico{
+		.flex-mosaico{
 		display: block;
 	}
 
@@ -238,9 +235,6 @@ footer img{
 		text-align: justify;
 		width: 100%;
 	}
-}
-
-@media screen and (max-width: 510px){
 
 	header{
 		text-align: center;
@@ -252,4 +246,34 @@ footer img{
 		float: none;
 	}
 
+	.rodape{
+		display: block !important;
+		padding-left: 0;
+	}
+
+	footer .container{
+    display: flex;
+    justify-content: center;;
+    padding: 0 9%;
+	}
+
+	.redes-sociais{
+		width: 100%;
+	    display: flex;
+	    justify-content: center;
+	}
+
+	.item-2-mosaico p{
+		text-align: center;
+	}
+
+	footer img{
+		width:60%;
+	}
+
+
 }
+
+
+
+
